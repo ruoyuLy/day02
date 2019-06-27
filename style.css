@@ -1,0 +1,27 @@
+div{
+    color: red;
+    font-size:100px;
+}
+.left{
+    color: red;
+    font-size:40px;
+}
+.right{
+    color: red;
+    font-size:40px;
+}
+#t1{
+    color:blue;
+}
+.header ul{
+    color:red;
+}   
+.header>ul{
+    border:1px solid #ccc;
+}
+.herder>ul>li:nth-child(2){
+    background:pink;
+}
+ul::after{
+    content:"hello"
+}
